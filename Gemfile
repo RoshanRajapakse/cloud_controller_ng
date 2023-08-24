@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 gem 'addressable'
 gem 'allowy', '>= 2.1.0'
 gem 'cf-copilot', '0.0.14'
-gem 'clockwork', require: false
+gem 'clockwork', '>= 3.0.2', require: false
 gem 'cloudfront-signer'
 gem 'em-http-request', '~> 1.1'
 gem 'eventmachine', '~> 1.2.7'
@@ -49,10 +49,10 @@ gem 'vmstat', '~> 2.3'
 gem 'yajl-ruby'
 
 # Rails Components
-gem 'actionpack', '~> 6.1.5', '>= 6.1.5.1'
-gem 'actionview', '~> 6.1.5', '>= 6.1.5.1'
-gem 'activemodel', '~> 6.1.5'
-gem 'railties', '~> 6.1.5', '>= 6.1.5.1'
+gem 'actionpack', '~> 6.1.7', '>= 6.1.7.5'
+gem 'actionview', '~> 6.1.7', '>= 6.1.7.5'
+gem 'activemodel', '~> 6.1.7', '>= 6.1.7.5'
+gem 'railties', '~> 6.1.7', '>= 6.1.7.5'
 
 gem 'azure-storage-blob', git: 'https://github.com/sethboyles/azure-storage-ruby.git', branch: 'x-ms-blob-content-type-fix-1.1'
 
@@ -86,7 +86,7 @@ group :test do
   gem 'rspec-collection_matchers'
   gem 'rspec-instafail'
   gem 'rspec-its'
-  gem 'rspec-rails', '~> 6.0.1'
+  gem 'rspec-rails', '~> 6.0.2'
   gem 'rspec-wait'
   gem 'rspec_api_documentation', '>= 6.1.0'
   gem 'rubocop', '~> 1.41.0'
