@@ -59,7 +59,7 @@ gem 'azure-storage-blob', git: 'https://github.com/sethboyles/azure-storage-ruby
 gem 'fog-aliyun'
 gem 'fog-aws'
 gem 'fog-azure-rm', git: 'https://github.com/fog/fog-azure-rm.git', branch: 'fog-arm-cf'
-gem 'fog-google', '~> 1.19.0'
+gem 'fog-google', '~> 1.20.0'
 gem 'fog-local'
 gem 'fog-openstack'
 gem 'fog-core', '~> 2.1.2'
@@ -89,9 +89,9 @@ group :test do
   gem 'rspec-rails', '~> 6.0.1'
   gem 'rspec-wait'
   gem 'rspec_api_documentation', '>= 6.1.0'
-  gem 'rubocop', '~> 1.41.0'
+  gem 'rubocop', '~> 1.41.1'
   gem 'timecop'
-  gem 'webmock', '> 2.3.1'
+  gem 'webmock', '>= 3.19.0'
 end
 
 group :development do
@@ -100,7 +100,7 @@ group :development do
   gem 'listen'
   gem 'roodi'
   gem 'ruby-debug-ide', '>= 0.7.0.beta4'
-  gem 'solargraph'
+  gem 'solargraph', '>= 0.49.0'
   gem 'spork', git: 'https://github.com/sporkrb/spork', ref: '224df49' # '~> 1.0rc'
   gem 'spring'
   gem 'spring-commands-rspec'
